@@ -13,9 +13,11 @@ docker run \
   -e USERID=$UID \
   -e PASSWORD="$1" \
   -e ROOT=TRUE \
-  --volume $HOME/project/cv2019-dataviz/user_data:/home \
+  --volume $HOME/projects/cv2019-dataviz/user_data:/home \
   --name cv-dataviz \
   rocker/verse:latest
 
 # Check container loading
 docker logs -f cv-dataviz
+
+
