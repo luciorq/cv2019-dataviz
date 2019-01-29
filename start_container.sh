@@ -18,4 +18,4 @@ docker run \
   rocker/verse:latest
 
 # Check container loading
-docker logs -f rstudio_server
+docker logs -f cv-dataviz

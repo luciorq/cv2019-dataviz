@@ -8,7 +8,7 @@ if [ "$#" -lt 1 ]
                        fi
 
                        user=$1
-                       passwd=cursodeverao2019
+                       passwd=$2
 
                        sudo useradd $user -d /home/$user  -m  ;
                        echo $passwd | sudo passwd $user ;
