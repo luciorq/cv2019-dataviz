@@ -595,3 +595,31 @@ soma <- function(x, y = 0) {
 }
 
 soma(5, 10)
+
+data.frame(1,2,3,4)
+tabela1 <- data.frame(vetor1, vetor4, vetor4)
+
+View(tabela1)
+
+mtcars
+
+View(mtcars)
+
+?data.frame()
+
+mtcars$am
+
+mtcars$cyl
+
+hist(mtcars$mpg)
+
+tabela2 <- mtcars
+
+?write.csv()
+write.csv(tabela2)
+
+
+write.csv(x = tabela2, file = "tabela-carros.csv")
+
+?read.csv()
+tabela_carros <- read.csv("tabela-carros.csv")
